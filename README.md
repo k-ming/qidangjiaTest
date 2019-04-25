@@ -24,7 +24,7 @@
 ``` 组名  
 [info]
 ```  
-``` 平台名称  
+``` (平台名称) 
 platformName=Android  
 ```   
 ``` Android版本  
