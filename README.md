@@ -7,14 +7,14 @@
 
 ### step2:目录介绍
 ![项目结构](https://github.com/ming-zh/qidangjiaTest/blob/master/imgs/dir.jpg)  
-1、qidangjiaTest 项目的根目录  
-2、app 存放apk文件的目录  
-3、Config 配置文件目录,config.ini是配置文件  
-4、Main 程序主入口，Enter.py 启动文件， Setup.py 初始化文件， Quit.py 退出驱动文件  
-5、Report 测试报告目录  
-6、Screenshort 截图目录  
-7、TestCase 测试用例目录 Login.py 测试登陆，Search.py 测试搜索 Study.py 测试学院  
-8、Utils 工具目录 HTMLTestRunner.py 生成HTML测试报告类，readConfig.py 读取配置文件类  
+1、**qidangjiaTest** 项目的根目录  
+2、**app** 存放apk文件的目录  
+3、**Config** 配置文件目录,config.ini是配置文件  
+4、**Main** 程序主入口，Enter.py 启动文件， Setup.py 初始化文件， Quit.py 退出驱动文件  
+5、**Report** 测试报告目录  
+6、**Screenshort** 截图目录  
+7、**TestCase** 测试用例目录 Login.py 测试登陆，Search.py 测试搜索 Study.py 测试学院  
+8、**Utils** 工具目录 HTMLTestRunner.py 生成HTML测试报告类，readConfig.py 读取配置文件类  
 
 ### step3:文件介绍
 #### 配置文件config.ini
