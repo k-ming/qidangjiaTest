@@ -14,10 +14,10 @@ class Read():
         noReset=cf.get('info', 'noReset')
         return platformName, platformVersion, deviceName, app, appPackage, appActivity, noReset
 
-if __name__=='__main__':
-    R1 = Read()
-    tup = R1.ReadFile()
-    print(tup)
-    print(os.getcwd())
+# if __name__=='__main__':
+#     R1 = Read()
+#     tup = R1.ReadFile()
+#     print(tup)
+#     print(os.getcwd())
 
 
