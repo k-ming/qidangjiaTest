@@ -48,27 +48,27 @@ noReset=true
 #### 读取配置文件类 readConfig.py
 ```  导入os,configparser 类
 import configparser
-import os
-```  
-class Read():
-	def ReadFile(self):
-		``` 切换到配置文件路径下  
-		os.chdir(os.path.join(os.getcwd(), "../Config"))
-		``` 
-		``` 实例化读取配置文件类  
-		cf = configparser.ConfigParser() 
-		cf.read('config.ini', 'UTF-8')
-		```  
-		``` 读取配置文件参数  
-		platformName=cf.get('info', 'platformName')
-		platformVersion=cf.get('info', 'platformVersion')
-		deviceName=cf.get('info', 'deviceName')
-		app=cf.get('info', 'app')
-		appPackage=cf.get('info', 'appPackage')
-		appActivity=cf.get('info', 'appActivity')
-		noReset=cf.get('info', 'noReset')
-		```  
-		``` 返回读取的参数  
-		return platformName, platformVersion, deviceName, app, appPackage, appActivity, noReset
+import os  
+```     
+class Read():  
+	def ReadFile(self):  
+		``` 切换到配置文件路径下    
+		os.chdir(os.path.join(os.getcwd(), "../Config"))  
+		```   
+		``` 实例化读取配置文件类    
+		cf = configparser.ConfigParser()   
+		cf.read('config.ini', 'UTF-8')  
+		```    
+		``` 读取配置文件参数    
+		platformName=cf.get('info', 'platformName')  
+		platformVersion=cf.get('info', 'platformVersion')  
+		deviceName=cf.get('info', 'deviceName')  
+		app=cf.get('info', 'app')  
+		appPackage=cf.get('info', 'appPackage')  
+		appActivity=cf.get('info', 'appActivity')  
+		noReset=cf.get('info', 'noReset')  
+		```    
+		``` 返回读取的参数    
+		return platformName, platformVersion, deviceName, app, appPackage, appActivity, noReset  
 		```  
 	
